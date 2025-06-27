@@ -1,5 +1,74 @@
 [
   {
+    "id": "Jogen",
+    "name": "Jogen Mystic",
+    "family": "Mystic",
+    "faction": "The Reach",
+    "mbti": "ESTJ",
+    "height": 193,
+    "birth_date": "3-6",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "White",
+    "eye_color": "Green",
+    "generation": -10,
+    "images": {
+      "portrait": "images/Jogen/portrait.jpg",
+      "chibi": "images/Jogen/chibi.png",
+      "card": "images/Jogen/card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "Fargion",
+    "name": "Fargion Kalzairos",
+    "family": "Kalzairos",
+    "faction": "The Reach",
+    "mbti": "ESTJ",
+    "height": 193,
+    "birth_date": "3-6",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Green",
+    "eye_color": "Green",
+    "generation": -2,
+    "images": {
+      "portrait": "images/Fargion/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "Furion",
+    "name": "Furion Kalzairos",
+    "family": "Kalzairos",
+    "faction": "The Reach",
+    "mbti": "ESTJ",
+    "height": 193,
+    "birth_date": "3-6",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Green",
+    "eye_color": "Green",
+    "generation": -1,
+    "images": {
+      "portrait": "images/Furion/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
     "id": "firiel",
     "name": "Firiel Kalzairos",
     "family": "Kalzairos",
@@ -23,6 +92,580 @@
           "url": "images/firiel/gallery-1.jpg",
           "description": "Firiel PSR Young"
         }
+      ]
+    }
+  },
+  {
+    "id": "Medeus",
+    "name": "Medeus Kalzairos",
+    "family": "Kalzairos",
+    "faction": "The Reach",
+    "mbti": "ENTP",
+    "height": 175,
+    "birth_date": "9-25",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Green",
+    "eye_color": "Red",
+    "generation": 0,
+    "images": {
+      "portrait": "images/Medeus/portrait.jpg",
+      "chibi": "images/Medeus/chibi.png",
+      "card": "images/Medeus/card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "Medusa",
+    "name": "Medusa Kalzairos",
+    "family": "Kalzairos",
+    "faction": "The Reach",
+    "mbti": "ENTP",
+    "height": 175,
+    "birth_date": "9-25",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Green",
+    "eye_color": "Red",
+    "generation": 0,
+    "images": {
+      "portrait": "images/Medusa/portrait.jpg",
+      "chibi": "images/Medusa/chibi.png",
+      "card": "images/Medusa/card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "Strand",
+    "name": "Strand Prim",
+    "family": "Prim",
+    "faction": "The Reach",
+    "mbti": "ESTJ",
+    "height": 193,
+    "birth_date": "3-6",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Green",
+    "eye_color": "Green",
+    "generation": -1,
+    "images": {
+      "portrait": "images/Strand/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "Staga",
+    "name": "Staga Prim",
+    "family": "Prim",
+    "faction": "The Reach",
+    "mbti": "ESTJ",
+    "height": 193,
+    "birth_date": "3-6",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Green",
+    "eye_color": "Green",
+    "generation": -1,
+    "images": {
+      "portrait": "images/Staga/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "Siesta",
+    "name": "Siesta Prim",
+    "family": "Prim",
+    "faction": "The Reach",
+    "mbti": "ENTP",
+    "height": 175,
+    "birth_date": "9-25",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Green",
+    "eye_color": "Red",
+    "generation": 0,
+    "images": {
+      "portrait": "images/Siesta/portrait.jpg",
+      "chibi": "images/Siesta/chibi.png",
+      "card": "images/Siesta/card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "Pilfram",
+    "name": "Pilfram Monferris",
+    "family": "Monferris",
+    "faction": "The Reach",
+    "mbti": "ESTJ",
+    "height": 193,
+    "birth_date": "3-6",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Green",
+    "eye_color": "Red",
+    "generation": -2,
+    "images": {
+      "portrait": "images/Pilfram/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "Pilgram",
+    "name": "Pilgram Monferris",
+    "family": "Monferris",
+    "faction": "The Reach",
+    "mbti": "ESTJ",
+    "height": 193,
+    "birth_date": "3-6",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Green",
+    "eye_color": "Red",
+    "generation": -2,
+    "images": {
+      "portrait": "images/Pilgram/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "Albert",
+    "name": "Albert Monferris",
+    "family": "Monferris",
+    "faction": "The Reach",
+    "mbti": "ESTJ",
+    "height": 193,
+    "birth_date": "3-6",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Green",
+    "eye_color": "Green",
+    "generation": -1,
+    "images": {
+      "portrait": "images/Albert/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "Galmerra",
+    "name": "Galmerra Monferris",
+    "family": "Monferris",
+    "faction": "The Reach",
+    "mbti": "ESTJ",
+    "height": 193,
+    "birth_date": "3-6",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Green",
+    "eye_color": "Red",
+    "generation": -1,
+    "images": {
+      "portrait": "images/Galmerra/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "Sadie",
+    "name": "Sadie Monferris",
+    "family": "Monferris",
+    "faction": "The Reach",
+    "mbti": "ENTP",
+    "height": 175,
+    "birth_date": "9-25",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Green",
+    "eye_color": "Red",
+    "generation": 0,
+    "images": {
+      "portrait": "images/Sadie/portrait.jpg",
+      "chibi": "images/Sadie/chibi.png",
+      "card": "images/Sadie/card.png",
+      "gallery": [
+        {
+          "url": "images/Sadie/gallery-1.jpg",
+          "description": "Sadie PSR Young"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Alpis",
+    "name": "Alpis Monferris",
+    "family": "Monferris",
+    "faction": "The Reach",
+    "mbti": "ENTP",
+    "height": 175,
+    "birth_date": "9-25",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Green",
+    "eye_color": "Green",
+    "generation": 0,
+    "images": {
+      "portrait": "images/Alpis/portrait.jpg",
+      "chibi": "images/Alpis/chibi.png",
+      "card": "images/Alpis/card.png",
+      "gallery": [
+        {
+          "url": "images/Alpis/gallery-1.jpg",
+          "description": "Alpis PSR Young"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Ericko",
+    "name": "Ericko Momonto",
+    "family": "Momonto",
+    "faction": "The Reach",
+    "mbti": "ENTP",
+    "height": 175,
+    "birth_date": "9-25",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Brown",
+    "eye_color": "Brown",
+    "generation": 0,
+    "images": {
+      "portrait": "images/ErickoDad/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "Saia",
+    "name": "Saia Momonto",
+    "family": "Momonto",
+    "faction": "The Reach",
+    "mbti": "ENTP",
+    "height": 175,
+    "birth_date": "9-25",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Brown",
+    "eye_color": "Purple",
+    "generation": 0,
+    "images": {
+      "portrait": "images/Saia/portrait.jpg",
+      "chibi": "images/Saia/chibi.png",
+      "card": "images/Saia/card.png",
+      "gallery": [
+        {
+          "url": "images/Saia/gallery-1.jpg",
+          "description": "Saia PSR Young"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Bolsa",
+    "name": "Bolsa Saffron",
+    "family": "Saffron",
+    "faction": "The Reach",
+    "mbti": "ENTP",
+    "height": 175,
+    "birth_date": "9-25",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Brown",
+    "eye_color": "Brown",
+    "generation": 0,
+    "images": {
+      "portrait": "images/Bolsa/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": [
+        {
+        }
+      ]
+    }
+  },
+  {
+    "id": "Ericko",
+    "name": "Ericko Saffron",
+    "family": "Saffron",
+    "faction": "The Reach",
+    "mbti": "ENTP",
+    "height": 175,
+    "birth_date": "9-25",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Brown",
+    "eye_color": "Brown",
+    "generation": 0,
+    "images": {
+      "portrait": "images/Ericko/portrait.jpg",
+      "chibi": "images/Ericko/chibi.png",
+      "card": "images/Ericko/card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "Algael",
+    "name": "Algael Pine",
+    "family": "Pine",
+    "faction": "The Reach",
+    "mbti": "ESTJ",
+    "height": 193,
+    "birth_date": "3-6",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR"],
+    "hair_color": "Green",
+    "eye_color": "Green",
+    "generation": -1,
+    "images": {
+      "portrait": "images/Algael/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "Fil",
+    "name": "Fil Pine",
+    "family": "Pine",
+    "faction": "The Reach",
+    "mbti": "ENTP",
+    "height": 175,
+    "birth_date": "9-25",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR"],
+    "hair_color": "Green",
+    "eye_color": "Green",
+    "generation": 0,
+    "images": {
+      "portrait": "images/Fil/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "Finia",
+    "name": "Finia Pine",
+    "family": "Pine",
+    "faction": "The Reach",
+    "mbti": "ENTP",
+    "height": 175,
+    "birth_date": "9-25",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR"],
+    "hair_color": "Green",
+    "eye_color": "Green",
+    "generation": 0,
+    "images": {
+      "portrait": "images/Finia/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "Mavi",
+    "name": "Mavi Apple",
+    "family": "Apple",
+    "faction": "The Reach",
+    "mbti": "ENTP",
+    "height": 175,
+    "birth_date": "9-25",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Green",
+    "eye_color": "Green",
+    "generation": 0,
+    "images": {
+      "portrait": "images/Mavi/portrait.jpg",
+      "chibi": "images/Mavi/chibi.png",
+      "card": "images/Mavi/card.png",
+      "gallery": [
+        {
+          "url": "images/Mavi/gallery-1.jpg",
+          "description": "Mavi PSR Young"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Dunces",
+    "name": "Dunces Morgwyn",
+    "family": "Morgwyn",
+    "faction": "The Reach",
+    "mbti": "ENTP",
+    "height": 175,
+    "birth_date": "9-25",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Silver",
+    "eye_color": "Brown",
+    "generation": 0,
+    "images": {
+      "portrait": "images/Dunces/portrait.jpg",
+      "chibi": "images/Dunces/chibi.png",
+      "card": "images/Dunces/card.png",
+      "gallery": [
+        {
+          "url": "images/Dunces/gallery-1.jpg",
+          "description": "Dunces PSR Young"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Rike",
+    "name": "Rike Watermelon",
+    "family": "Watermelon",
+    "faction": "The Reach",
+    "mbti": "ESTJ",
+    "height": 193,
+    "birth_date": "3-6",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Green",
+    "eye_color": "Red",
+    "generation": -2,
+    "images": {
+      "portrait": "images/Rike/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "Dilo",
+    "name": "Dilonius Oaksbane",
+    "family": "Oaksbane",
+    "faction": "The North",
+    "mbti": "ESTJ",
+    "height": 193,
+    "birth_date": "3-6",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR"],
+    "hair_color": "White",
+    "eye_color": "Green",
+    "generation": -10,
+    "images": {
+      "portrait": "images/Dilo/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "Lance",
+    "name": "Lance Oaksbane",
+    "family": "Oaksbane",
+    "faction": "The North",
+    "mbti": "ESTJ",
+    "height": 193,
+    "birth_date": "3-6",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "White",
+    "eye_color": "Blue",
+    "generation": -1,
+    "images": {
+      "portrait": "images/Lance/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "Lucia",
+    "name": "Lucia Oaksbane",
+    "family": "Oaksbane",
+    "faction": "The North",
+    "mbti": "ESTJ",
+    "height": 193,
+    "birth_date": "3-6",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "White",
+    "eye_color": "Blue",
+    "generation": -1,
+    "images": {
+      "portrait": "images/Lucia/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": [
       ]
     }
   },
@@ -151,13 +794,274 @@
     "pote_name": "",
     "verse": ["PSR", "POTE"],
     "hair_color": "Light Purple",
-    "eye_color": "Light Purple",
+    "eye_color": "Purple",
     "generation": 0,
     "images": {
       "portrait": "images/meltlilith/portrait.jpg",
       "chibi": "images/meltlilith/chibi.png",
       "card": "images/meltlilith/card.png",
       "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "Gren",
+    "name": "Gren Soros",
+    "family": "Soros",
+    "faction": "The North",
+    "mbti": "ESTJ",
+    "height": 193,
+    "birth_date": "3-6",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "White",
+    "eye_color": "Blue",
+    "generation": -1,
+    "images": {
+      "portrait": "images/Gren/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "Kern",
+    "name": "Kern Oldsbark",
+    "family": "Oldsbark",
+    "faction": "The North",
+    "mbti": "ESTJ",
+    "height": 193,
+    "birth_date": "3-6",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "White",
+    "eye_color": "Blue",
+    "generation": 0,
+    "images": {
+      "portrait": "images/Kern/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "Darkin",
+    "name": "Darkin Icebirch",
+    "family": "Icebirch",
+    "faction": "The North",
+    "mbti": "ESTJ",
+    "height": 193,
+    "birth_date": "3-6",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "White",
+    "eye_color": "Blue",
+    "generation": 0,
+    "images": {
+      "portrait": "images/Darkin/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "Kaiross",
+    "name": "Kaiross Whitefur",
+    "family": "Whitefur",
+    "faction": "The North",
+    "mbti": "ESTJ",
+    "height": 193,
+    "birth_date": "3-6",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR"],
+    "hair_color": "White",
+    "eye_color": "Blue",
+    "generation": -1,
+    "images": {
+      "portrait": "images/Kaiross/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "Whisper",
+    "name": "Whisper Whitefur",
+    "family": "Whitefur",
+    "faction": "The North",
+    "mbti": "ESTJ",
+    "height": 193,
+    "birth_date": "3-6",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR"],
+    "hair_color": "White",
+    "eye_color": "Blue",
+    "generation": -1,
+    "images": {
+      "portrait": "images/Whisper/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "Kain",
+    "name": "Kain Whitefur",
+    "family": "Whitefur",
+    "faction": "The North",
+    "mbti": "ESTJ",
+    "height": 193,
+    "birth_date": "3-6",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "White",
+    "eye_color": "Blue",
+    "generation": 0,
+    "images": {
+      "portrait": "images/Kain/portrait.jpg",
+      "chibi": "images/Kain/chibi.png",
+      "card": "images/Kain/card.png",
+      "gallery": [
+        {
+          "url": "images/Kain/gallery-1.jpg",
+          "description": "Kain PSR Young"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Herlion",
+    "name": "Herlion Lynsbane",
+    "family": "Lynsbane",
+    "faction": "The North",
+    "mbti": "ESTJ",
+    "height": 193,
+    "birth_date": "3-6",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR"],
+    "hair_color": "White",
+    "eye_color": "Blue",
+    "generation": -1,
+    "images": {
+      "portrait": "images/Herlion/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "Vanessa",
+    "name": "Vanessa Whitefur",
+    "family": "Whitefur",
+    "faction": "The North",
+    "mbti": "ESTJ",
+    "height": 193,
+    "birth_date": "3-6",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "White",
+    "eye_color": "Blue",
+    "generation": 0,
+    "images": {
+      "portrait": "images/Vanessa/portrait.jpg",
+      "chibi": "images/Vanessa/chibi.png",
+      "card": "images/Vanessa/card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "Nautilus",
+    "name": "Nautilus Swornith",
+    "family": "Swornith",
+    "faction": "Swornith",
+    "mbti": "ESTJ",
+    "height": 193,
+    "birth_date": "3-6",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Blonde",
+    "eye_color": "Golden",
+    "generation": -1,
+    "images": {
+      "portrait": "images/Nautilus/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "Gaiser",
+    "name": "Gaiser Swornith",
+    "family": "Swornith",
+    "faction": "Swornith",
+    "mbti": "ESTJ",
+    "height": 193,
+    "birth_date": "3-6",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR"],
+    "hair_color": "Blonde",
+    "eye_color": "Golden",
+    "generation": -1,
+    "images": {
+      "portrait": "images/Gaiser/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "Julius",
+    "name": "Julius Swornith",
+    "family": "Swornith",
+    "faction": "Swornith",
+    "mbti": "ESTJ",
+    "height": 193,
+    "birth_date": "3-6",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Blonde",
+    "eye_color": "Golden",
+    "generation": 0,
+    "images": {
+      "portrait": "images/Julius/portrait.jpg",
+      "chibi": "images/Julius/chibi.png",
+      "card": "images/Julius/card.png",
+      "gallery": [
+        {
+          "url": "images/Julius/gallery-1.jpg",
+          "description": "Julius PSR EOT"
+        }
       ]
     }
   },
@@ -185,6 +1089,125 @@
           "url": "images/urthis/gallery-1.jpg",
           "description": "Urthis PSR Young"
         }
+      ]
+    }
+  },
+  {
+    "id": "Laiser",
+    "name": "Laiser Greyfog",
+    "family": "Greyfog",
+    "faction": "Greyfog",
+    "mbti": "ESTJ",
+    "height": 193,
+    "birth_date": "3-6",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Silver",
+    "eye_color": "Blue",
+    "generation": -1,
+    "images": {
+      "portrait": "images/Laiser/portrait.jpg",
+      "chibi": "images/Laiser/chibi.png",
+      "card": "images/Laiser/card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "Fiona",
+    "name": "Fiona Greyfog",
+    "family": "Greyfog",
+    "faction": "Greyfog",
+    "mbti": "ESTJ",
+    "height": 193,
+    "birth_date": "3-6",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "White",
+    "eye_color": "Blue",
+    "generation": 0,
+    "images": {
+      "portrait": "images/Fiona/portrait.jpg",
+      "chibi": "images/Fiona/chibi.png",
+      "card": "images/Fiona/card.png",
+      "gallery": [
+        {
+          "url": "images/Fiona/gallery-1.jpg",
+          "description": "Fiona PSR Young"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Lloyd",
+    "name": "Lloyd Greyfog",
+    "family": "Greyfog",
+    "faction": "Greyfog",
+    "mbti": "ESTJ",
+    "height": 193,
+    "birth_date": "3-6",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Silver",
+    "eye_color": "Blue",
+    "generation": 0,
+    "images": {
+      "portrait": "images/Lloyd/portrait.jpg",
+      "chibi": "images/Lloyd/chibi.png",
+      "card": "images/Lloyd/card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "Trinitus",
+    "name": "Trinitus Greyfog",
+    "family": "Greyfog",
+    "faction": "Greyfog",
+    "mbti": "ESTJ",
+    "height": 193,
+    "birth_date": "3-6",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR"],
+    "hair_color": "Silver",
+    "eye_color": "Blue",
+    "generation": 0,
+    "images": {
+      "portrait": "images/Trinitus/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "cassiopeia",
+    "name": "Cassiopeia White",
+    "family": "Drums",
+    "faction": "White Family",
+    "mbti": "ESFJ",
+    "height": 156,
+    "birth_date": "4-13",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["POTE"],
+    "hair_color": "Light Purple",
+    "eye_color": "Purple",
+    "generation": 0,
+    "images": {
+      "portrait": "images/cassiopeia/portrait.jpg",
+      "chibi": "images/cassiopeia/chibi.png",
+      "card": "images/cassiopeia/card.png",
+      "gallery": [
       ]
     }
   }

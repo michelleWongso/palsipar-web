@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -61,12 +60,20 @@
       <div class="col-auto"><select id="verse" class="form-select"><option value="">All Verses</option><option value="PSR">PSR</option><option value="POTE">POTE</option></select></div>
       <div class="col-auto"><select id="mbti" class="form-select"><option value="">All MBTI</option></select></div>
       <div class="col-auto"><select id="faction" class="form-select"><option value="">All Factions</option></select></div>
+      <div class="col-auto"><select id="generation" class="form-select">
+        <option value="all" selected>All Generations</option>
+        <option value="0">Generation 0</option>
+        <option value="-1">Generation -1</option>
+        <option value="-2">Generation -2</option>
+        <option value="-10">Founding Generation</option>
+      </select></div>
       <div class="col-auto"><input type="number" id="heightMin" class="form-control" placeholder="Min Height"></div>
       <div class="col-auto"><input type="number" id="heightMax" class="form-control" placeholder="Max Height"></div>
       <div class="col-auto"><input type="number" id="birthFrom" class="form-control" placeholder="Birth Month From"></div>
       <div class="col-auto"><input type="number" id="birthTo" class="form-control" placeholder="To"></div>
       <div class="col-auto"><select id="sort" class="form-select">
         <option value="faction">Sort by Faction</option>
+        <option value="family">Sort by Family</option>
         <option value="name">Sort A-Z</option>
       </select></div>
       <div class="col-auto"><select id="displayMode" class="form-select">
@@ -122,6 +129,7 @@
       const verse = document.getElementById('verse').value;
       const mbti = document.getElementById('mbti').value;
       const faction = document.getElementById('faction').value;
+      const generation = document.getElementById('generation').value;
       const heightMin = parseInt(document.getElementById('heightMin').value) || 0;
       const heightMax = parseInt(document.getElementById('heightMax').value) || 1000;
       const birthFrom = parseInt(document.getElementById('birthFrom').value) || 1;
@@ -130,6 +138,10 @@
 
       let filtered = characters.filter(c => {
         const birthMonth = parseInt(c.birth_date.split('-')[0]);
+        let genMatch = true;
+        if (generation !== "all") {
+          genMatch = String(c.generation) === generation;
+        }
         return (
           c.name.toLowerCase().includes(search) &&
           (!family || c.family === family) &&
@@ -138,6 +150,7 @@
           (!verse || c.verse.includes(verse)) &&
           (!mbti || c.mbti === mbti) &&
           (!faction || c.faction === faction) &&
+          genMatch &&
           (c.height >= heightMin && c.height <= heightMax) &&
           (birthMonth >= birthFrom && birthMonth <= birthTo)
         );
@@ -147,6 +160,8 @@
         filtered.sort((a, b) => a.name.localeCompare(b.name));
       } else if (sort === "faction") {
         filtered.sort((a, b) => a.faction.localeCompare(b.faction));
+      } else if (sort === "family") {
+        filtered.sort((a, b) => a.family.localeCompare(b.family));
       }
 
       grid.innerHTML = '';
