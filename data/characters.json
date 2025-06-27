@@ -407,6 +407,31 @@
     }
   },
   {
+    "id": "Zargaras",
+    "name": "Zargaras",
+    "family": "-",
+    "faction": "The Reach",
+    "mbti": "ENTP",
+    "height": 175,
+    "birth_date": "9-25",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Brown",
+    "eye_color": "Brown",
+    "generation": -2,
+    "images": {
+      "portrait": "images/Zargaras/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": [
+        {
+        }
+      ]
+    }
+  },
+  {
     "id": "Bolsa",
     "name": "Bolsa Saffron",
     "family": "Saffron",
@@ -420,7 +445,7 @@
     "verse": ["PSR", "POTE"],
     "hair_color": "Brown",
     "eye_color": "Brown",
-    "generation": 0,
+    "generation": -2,
     "images": {
       "portrait": "images/Bolsa/portrait.jpg",
       "chibi": "images/No Chibi.png",
@@ -1182,6 +1207,98 @@
     "generation": 0,
     "images": {
       "portrait": "images/Trinitus/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "Nathan",
+    "name": "Nathan Sanguine",
+    "family": "Sanguine",
+    "faction": "Greyfog",
+    "mbti": "ESTJ",
+    "height": 193,
+    "birth_date": "3-6",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR"],
+    "hair_color": "Green",
+    "eye_color": "Green",
+    "generation": -2,
+    "images": {
+      "portrait": "images/Nathan/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "Natasha",
+    "name": "Natasha Sanguine",
+    "family": "Sanguine",
+    "faction": "Greyfog",
+    "mbti": "ENTP",
+    "height": 175,
+    "birth_date": "9-25",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR"],
+    "hair_color": "Green",
+    "eye_color": "Green",
+    "generation": -1,
+    "images": {
+      "portrait": "images/Natasha/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "Nataryu",
+    "name": "Nataryu Sanguine",
+    "family": "Sanguine",
+    "faction": "Greyfog",
+    "mbti": "ENTP",
+    "height": 175,
+    "birth_date": "9-25",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR"],
+    "hair_color": "Green",
+    "eye_color": "Green",
+    "generation": -1,
+    "images": {
+      "portrait": "images/Nataryu/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "Garry",
+    "name": "Garry Thunderfang",
+    "family": "Thunderfang",
+    "faction": "Greyfog",
+    "mbti": "ESTJ",
+    "height": 193,
+    "birth_date": "3-6",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR"],
+    "hair_color": "Green",
+    "eye_color": "Green",
+    "generation": -1,
+    "images": {
+      "portrait": "images/Garry/portrait.jpg",
       "chibi": "images/No Chibi.png",
       "card": "images/No Card.png",
       "gallery": [
