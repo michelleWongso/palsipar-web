@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Palsipar Verse</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 1rem;
+      background: #f7f7f7;
+    }
+    .search-bar {
+      margin-bottom: 1rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 1rem;
+    }
+    .card {
+      background: white;
+      border-radius: 8px;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      cursor: pointer;
+    }
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+    .tags {
+      margin-top: 0.5rem;
+      font-size: 0.8rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <h1>Palsipar Verse Characters</h1>
+  <input type="text" id="search" class="search-bar" placeholder="Search characters..." />
+  <div class="grid" id="character-grid"></div>
+
+  <script>
+    let data = [];
+    let displayMode = 'portrait';
+
+    async function fetchData() {
+      const res = await fetch('./data/characters.json');
+      data = await res.json();
+      renderGrid(data);
+    }
+
+    function renderGrid(characters) {
+      const grid = document.getElementById('character-grid');
+      grid.innerHTML = '';
+      characters.forEach(char => {
+        const card = document.createElement('div');
+        card.className = 'card';
+        card.onclick = () => window.location.href = `detail.html?id=${char.id}`;
+        card.innerHTML = `
+          <img src="${char.images[displayMode]}" alt="${char.name}">
+          <h3>${char.name}</h3>
+          <div class="tags">${char.tags.join(', ')}</div>
+        `;
+        grid.appendChild(card);
+      });
+    }
+
+    document.getElementById('search').addEventListener('input', (e) => {
+      const keyword = e.target.value.toLowerCase();
+      const filtered = data.filter(c => 
+        c.name.toLowerCase().includes(keyword) ||
+        c.tags.some(tag => tag.includes(keyword))
+      );
+      renderGrid(filtered);
+    });
+
+    fetchData();
+  </script>
+</body>
+</html>

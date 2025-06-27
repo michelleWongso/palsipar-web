@@ -1,0 +1,56 @@
+[
+  {
+    "id": "louisl",
+    "name": "Louisl",
+    "tags": [
+      "knight",
+      "ice",
+      "reserved"
+    ],
+    "images": {
+      "portrait": "images/louisl/portrait.jpg",
+      "chibi": "images/louisl/chibi.jpg",
+      "gallery": [
+        "images/louisl/gallery1.jpg",
+        "images/louisl/gallery2.jpg"
+      ]
+    },
+    "description": "A stoic ice knight loyal to the ancient order."
+  },
+  {
+    "id": "urthis",
+    "name": "Urthis",
+    "tags": [
+      "god",
+      "earth",
+      "creator"
+    ],
+    "images": {
+      "portrait": "images/urthis/portrait.jpg",
+      "chibi": "images/urthis/chibi.jpg",
+      "gallery": [
+        "images/urthis/gallery1.jpg",
+        "images/urthis/gallery2.jpg"
+      ]
+    },
+    "description": "The primordial deity who shaped the lands of Palsipar."
+  },
+  {
+    "id": "firiel",
+    "name": "Firiel",
+    "tags": [
+      "elf",
+      "wind",
+      "cheerful"
+    ],
+    "images": {
+      "portrait": "images/firiel/portrait.jpg",
+      "chibi": "images/firiel/chibi.jpg",
+      "gallery": [
+        "images/firiel/gallery1.jpg",
+        "images/firiel/gallery2.jpg"
+      ]
+    },
+    "description": "A sprightly wind elf who dances with the breeze."
+  }
+]

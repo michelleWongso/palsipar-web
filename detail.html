@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Character Detail</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background: #f2f2f2;
+    }
+    .container {
+      background: white;
+      padding: 2rem;
+      border-radius: 8px;
+      max-width: 700px;
+      margin: auto;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 4px;
+      margin-bottom: 1rem;
+    }
+    .gallery img {
+      width: 30%;
+      margin-right: 1%;
+    }
+    .tags {
+      color: #555;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container" id="character-detail">Loading...</div>
+
+  <script>
+    async function loadCharacter() {
+      const params = new URLSearchParams(window.location.search);
+      const id = params.get('id');
+      const res = await fetch('./data/characters.json');
+      const characters = await res.json();
+      const character = characters.find(c => c.id === id);
+      if (!character) return;
+
+      const container = document.getElementById('character-detail');
+      container.innerHTML = `
+        <h1>${character.name}</h1>
+        <img src="${character.images.portrait}" alt="${character.name}">
+        <p>${character.description}</p>
+        <div class="tags"><strong>Tags:</strong> ${character.tags.join(', ')}</div>
+        <h3>Chibi Version</h3>
+        <img src="${character.images.chibi}" alt="Chibi ${character.name}">
+        <h3>Gallery</h3>
+        <div class="gallery">
+          ${character.images.gallery.map(img => `<img src="${img}">`).join('')}
+        </div>
+      `;
+    }
+
+    loadCharacter();
+  </script>
+</body>
+</html>
