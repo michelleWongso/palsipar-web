@@ -4,63 +4,99 @@
 <head>
   <meta charset="UTF-8" />
   <title>Character Detail</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
-      font-family: sans-serif;
-      margin: 0;
+      background: #f5f5f5;
       padding: 2rem;
-      background: #f2f2f2;
+      font-family: sans-serif;
     }
     .container {
       background: white;
       padding: 2rem;
-      border-radius: 8px;
-      max-width: 700px;
+      border-radius: 12px;
+      max-width: 800px;
       margin: auto;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
     }
-    img {
-      max-width: 100%;
-      border-radius: 4px;
+    .image-section img {
+      width: 100%;
+      border-radius: 8px;
       margin-bottom: 1rem;
     }
-    .gallery img {
-      width: 30%;
-      margin-right: 1%;
+    .info-list dt {
+      font-weight: 600;
     }
-    .tags {
-      color: #555;
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+      transition: transform 0.2s;
+    }
+    .gallery a:hover img {
+      transform: scale(1.03);
+    }
+    .gallery-caption {
       font-size: 0.9rem;
+      color: #666;
+      text-align: center;
+      margin-top: 0.25rem;
     }
   </style>
 </head>
 <body>
-  <div class="container" id="character-detail">Loading...</div>
+  <div class="container" id="detail">Loading...</div>
 
   <script>
-    async function loadCharacter() {
+    async function loadDetail() {
       const params = new URLSearchParams(window.location.search);
-      const id = params.get('id');
-      const res = await fetch('./data/characters.json');
+      const id = params.get("id");
+      const res = await fetch("./data/characters.json");
       const characters = await res.json();
-      const character = characters.find(c => c.id === id);
-      if (!character) return;
+      const c = characters.find(x => x.id === id);
+      if (!c) {
+        document.getElementById("detail").innerHTML = "<p>Character not found.</p>";
+        return;
+      }
 
-      const container = document.getElementById('character-detail');
-      container.innerHTML = `
-        <h1>${character.name}</h1>
-        <img src="${character.images.portrait}" alt="${character.name}">
-        <p>${character.description}</p>
-        <div class="tags"><strong>Tags:</strong> ${character.tags.join(', ')}</div>
-        <h3>Chibi Version</h3>
-        <img src="${character.images.chibi}" alt="Chibi ${character.name}">
-        <h3>Gallery</h3>
-        <div class="gallery">
-          ${character.images.gallery.map(img => `<img src="${img}">`).join('')}
+      const gallery = (c.images.gallery || []).map(img => `
+        <div class="col-md-4">
+          <a href="${img.url}" target="_blank">
+            <img src="${img.url}" alt="${img.description}" class="img-fluid">
+          </a>
+          <div class="gallery-caption">${img.description}</div>
         </div>
+      `).join("");
+
+      document.getElementById("detail").innerHTML = `
+        <h2 class="mb-3">${c.name}</h2>
+        <div class="row mb-4">
+          <div class="col-md-6 image-section">
+            <img src="${c.images.portrait}" alt="Portrait">
+          </div>
+          <div class="col-md-6 image-section">
+            <img src="${c.images.chibi}" alt="Chibi">
+          </div>
+        </div>
+        <dl class="row info-list">
+          <dt class="col-sm-4">Family</dt><dd class="col-sm-8">${c.family || "-"}</dd>
+          <dt class="col-sm-4">Faction</dt><dd class="col-sm-8">${c.faction || "-"}</dd>
+          <dt class="col-sm-4">Generation</dt><dd class="col-sm-8">${c.generation ?? "-"}</dd>
+          <dt class="col-sm-4">Importance</dt><dd class="col-sm-8">${c.importance_level || "-"}</dd>
+          <dt class="col-sm-4">MBTI</dt><dd class="col-sm-8">${c.mbti || "-"}</dd>
+          <dt class="col-sm-4">Height</dt><dd class="col-sm-8">${c.height} cm</dd>
+          <dt class="col-sm-4">Birth Date</dt><dd class="col-sm-8">${c.birth_date}</dd>
+          <dt class="col-sm-4">Hair Color</dt><dd class="col-sm-8">${c.hair_color}</dd>
+          <dt class="col-sm-4">Eye Color</dt><dd class="col-sm-8">${c.eye_color}</dd>
+          <dt class="col-sm-4">Verse</dt><dd class="col-sm-8">${c.verse.join(", ")}</dd>
+          <dt class="col-sm-4">PSR Name</dt><dd class="col-sm-8">${c.psr_name || "-"}</dd>
+          <dt class="col-sm-4">POTE Name</dt><dd class="col-sm-8">${c.pote_name || "-"}</dd>
+        </dl>
+        <h4 class="mt-4">Gallery</h4>
+        <div class="row gallery mt-2">${gallery || "<p>No gallery available.</p>"}</div>
       `;
     }
 
-    loadCharacter();
+    loadDetail();
   </script>
 </body>
 </html>

@@ -1,56 +1,191 @@
 [
   {
+    "id": "firiel",
+    "name": "Firiel Kalzairos",
+    "family": "Kalzairos",
+    "faction": "The Reach",
+    "mbti": "ENTP",
+    "height": 175,
+    "birth_date": "9-25",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Green",
+    "eye_color": "Green",
+    "generation": 0,
+    "images": {
+      "portrait": "images/firiel/portrait.jpg",
+      "chibi": "images/firiel/chibi.png",
+      "card": "images/firiel/card.png",
+      "gallery": [
+        {
+          "url": "images/firiel/gallery-1.jpg",
+          "description": "Firiel PSR Young"
+        }
+      ]
+    }
+  },
+  {
+    "id": "stark",
+    "name": "Stark Oaksbane",
+    "family": "Oaksbane",
+    "faction": "The North",
+    "mbti": "INFJ",
+    "height": 170,
+    "birth_date": "10-10",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "White",
+    "eye_color": "Blue",
+    "generation": 0,
+    "images": {
+      "portrait": "images/stark/portrait.jpg",
+      "chibi": "images/stark/chibi.png",
+      "card": "images/stark/card.png",
+      "gallery": [
+        {
+          "url": "images/stark/gallery-1.jpg",
+          "description": "Stark PSR Young"
+        },
+        {
+          "url": "images/stark/gallery-2.jpg",
+          "description": "Stark PSR Depressed"
+        }
+      ]
+    }
+  },
+  {
     "id": "louisl",
-    "name": "Louisl",
-    "tags": [
-      "knight",
-      "ice",
-      "reserved"
-    ],
+    "name": "Louisl Oaksbane",
+    "family": "Oaksbane",
+    "faction": "The North",
+    "mbti": "ENTJ",
+    "height": 185,
+    "birth_date": "9-17",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "White",
+    "eye_color": "Blue",
+    "generation": 0,
     "images": {
       "portrait": "images/louisl/portrait.jpg",
-      "chibi": "images/louisl/chibi.jpg",
+      "chibi": "images/louisl/chibi.png",
+      "card": "images/louisl/card.png",
       "gallery": [
-        "images/louisl/gallery1.jpg",
-        "images/louisl/gallery2.jpg"
+        {
+          "url": "images/louisl/gallery-1.jpg",
+          "description": "Louisl PSR Young"
+        },
+        {
+          "url": "images/louisl/gallery-2.jpg",
+          "description": "Louisl PSR Adult"
+        }
       ]
-    },
-    "description": "A stoic ice knight loyal to the ancient order."
+    }
+  },
+  {
+    "id": "barbara",
+    "name": "Barbara Oaksbane",
+    "family": "Oaksbane",
+    "faction": "The North",
+    "mbti": "ESFP",
+    "height": 167,
+    "birth_date": "4-17",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "White",
+    "eye_color": "Blue",
+    "generation": 0,
+    "images": {
+      "portrait": "images/barbara/portrait.jpg",
+      "chibi": "images/barbara/chibi.png",
+      "card": "images/barbara/card.png",
+      "gallery": [
+        {
+          "url": "images/barbara/gallery-1.jpg",
+          "description": "Barbara PSR Young"
+        }
+      ]
+    }
+  },
+  {
+    "id": "layton",
+    "name": "Layton Oaksbane",
+    "family": "Oaksbane",
+    "faction": "The North",
+    "mbti": "ENFP",
+    "height": 170,
+    "birth_date": "9-19",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "White",
+    "eye_color": "Blue",
+    "generation": 0,
+    "images": {
+      "portrait": "images/layton/portrait.jpg",
+      "chibi": "images/layton/chibi.png",
+      "card": "images/layton/card.png",
+      "gallery": [
+      ]
+    }
+  },
+  {
+    "id": "meltlilith",
+    "name": "Meltlilith Drums",
+    "family": "Drums",
+    "faction": "The North",
+    "mbti": "ENFP",
+    "height": 170,
+    "birth_date": "9-19",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Light Purple",
+    "eye_color": "Light Purple",
+    "generation": 0,
+    "images": {
+      "portrait": "images/meltlilith/portrait.jpg",
+      "chibi": "images/meltlilith/chibi.png",
+      "card": "images/meltlilith/card.png",
+      "gallery": [
+      ]
+    }
   },
   {
     "id": "urthis",
-    "name": "Urthis",
-    "tags": [
-      "god",
-      "earth",
-      "creator"
-    ],
+    "name": "Urthis Swornith",
+    "family": "Swornith",
+    "faction": "Swornith",
+    "mbti": "ESTJ",
+    "height": 193,
+    "birth_date": "3-6",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Blonde",
+    "eye_color": "Golden",
+    "generation": 0,
     "images": {
       "portrait": "images/urthis/portrait.jpg",
-      "chibi": "images/urthis/chibi.jpg",
+      "chibi": "images/urthis/chibi.png",
+      "card": "images/urthis/card.png",
       "gallery": [
-        "images/urthis/gallery1.jpg",
-        "images/urthis/gallery2.jpg"
+        {
+          "url": "images/urthis/gallery-1.jpg",
+          "description": "Urthis PSR Young"
+        }
       ]
-    },
-    "description": "The primordial deity who shaped the lands of Palsipar."
-  },
-  {
-    "id": "firiel",
-    "name": "Firiel",
-    "tags": [
-      "elf",
-      "wind",
-      "cheerful"
-    ],
-    "images": {
-      "portrait": "images/firiel/portrait.jpg",
-      "chibi": "images/firiel/chibi.jpg",
-      "gallery": [
-        "images/firiel/gallery1.jpg",
-        "images/firiel/gallery2.jpg"
-      ]
-    },
-    "description": "A sprightly wind elf who dances with the breeze."
+    }
   }
 ]

@@ -3,83 +3,184 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Palsipar Verse</title>
+  <title>Palsipar Characters</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
       font-family: sans-serif;
-      margin: 0;
-      padding: 1rem;
       background: #f7f7f7;
-    }
-    .search-bar {
-      margin-bottom: 1rem;
+      padding: 2rem;
     }
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-      gap: 1rem;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
     }
     .card {
-      background: white;
-      border-radius: 8px;
-      padding: 1rem;
-      text-align: center;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+      overflow: hidden;
       cursor: pointer;
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: scale(1.02);
     }
     .card img {
       width: 100%;
-      height: auto;
-      border-radius: 4px;
+      object-fit: cover;
+      border-bottom: 1px solid #ddd;
     }
-    .tags {
-      margin-top: 0.5rem;
-      font-size: 0.8rem;
-      color: #666;
+    .chibi img { aspect-ratio: 1 / 1; }
+    .portrait img { aspect-ratio: 2 / 3; }
+    .cardmode img { aspect-ratio: 635 / 880; }
+    .card-title {
+      font-size: 1rem;
+      font-weight: 600;
+      margin: 0.5rem;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .form-control, .form-select {
+      min-width: 180px;
     }
   </style>
 </head>
 <body>
-  <h1>Palsipar Verse Characters</h1>
-  <input type="text" id="search" class="search-bar" placeholder="Search characters..." />
-  <div class="grid" id="character-grid"></div>
+  <div class="container">
+    <h1 class="text-center mb-4 fw-bolder">Palsipar Characters</h1>
+    <div class="row g-3 justify-content-center mb-4">
+      <div class="col-auto"><input type="text" id="search" class="form-control" placeholder="Search name..."></div>
+      <div class="col-auto"><select id="family" class="form-select"><option value="">All Families</option></select></div>
+      <div class="col-auto"><select id="hair" class="form-select"><option value="">All Hair Colors</option></select></div>
+      <div class="col-auto"><select id="eye" class="form-select"><option value="">All Eye Colors</option></select></div>
+      <div class="col-auto"><select id="verse" class="form-select"><option value="">All Verses</option><option value="PSR">PSR</option><option value="POTE">POTE</option></select></div>
+      <div class="col-auto"><select id="mbti" class="form-select"><option value="">All MBTI</option></select></div>
+      <div class="col-auto"><select id="faction" class="form-select"><option value="">All Factions</option></select></div>
+      <div class="col-auto"><input type="number" id="heightMin" class="form-control" placeholder="Min Height"></div>
+      <div class="col-auto"><input type="number" id="heightMax" class="form-control" placeholder="Max Height"></div>
+      <div class="col-auto"><input type="number" id="birthFrom" class="form-control" placeholder="Birth Month From"></div>
+      <div class="col-auto"><input type="number" id="birthTo" class="form-control" placeholder="To"></div>
+      <div class="col-auto"><select id="sort" class="form-select">
+        <option value="faction">Sort by Faction</option>
+        <option value="name">Sort A-Z</option>
+      </select></div>
+      <div class="col-auto"><select id="displayMode" class="form-select">
+        <option value="chibi">Chibi</option>
+        <option value="cardmode">Card</option>
+        <option value="portrait" selected>Portrait</option>
+      </select></div>
+    </div>
+    <div class="grid" id="grid"></div>
+  </div>
 
   <script>
-    let data = [];
-    let displayMode = 'portrait';
+    let characters = [];
+    let mode = 'portrait';
 
-    async function fetchData() {
+    async function init() {
       const res = await fetch('./data/characters.json');
-      data = await res.json();
-      renderGrid(data);
+      characters = await res.json();
+      populateFilters();
+      renderGrid();
     }
 
-    function renderGrid(characters) {
-      const grid = document.getElementById('character-grid');
+    function populateFilters() {
+      const families = new Set(), hairs = new Set(), eyes = new Set(), mbtis = new Set(), factions = new Set();
+      characters.forEach(c => {
+        families.add(c.family);
+        hairs.add(c.hair_color);
+        eyes.add(c.eye_color);
+        mbtis.add(c.mbti);
+        factions.add(c.faction);
+      });
+      families.forEach(f => addOption('family', f));
+      hairs.forEach(h => addOption('hair', h));
+      eyes.forEach(e => addOption('eye', e));
+      mbtis.forEach(m => addOption('mbti', m));
+      factions.forEach(f => addOption('faction', f));
+    }
+
+    function addOption(id, val) {
+      const sel = document.getElementById(id);
+      const opt = document.createElement('option');
+      opt.value = val;
+      opt.textContent = val;
+      sel.appendChild(opt);
+    }
+
+    function renderGrid() {
+      const grid = document.getElementById('grid');
+      const search = document.getElementById('search').value.toLowerCase();
+      const family = document.getElementById('family').value;
+      const hair = document.getElementById('hair').value;
+      const eye = document.getElementById('eye').value;
+      const verse = document.getElementById('verse').value;
+      const mbti = document.getElementById('mbti').value;
+      const faction = document.getElementById('faction').value;
+      const heightMin = parseInt(document.getElementById('heightMin').value) || 0;
+      const heightMax = parseInt(document.getElementById('heightMax').value) || 1000;
+      const birthFrom = parseInt(document.getElementById('birthFrom').value) || 1;
+      const birthTo = parseInt(document.getElementById('birthTo').value) || 12;
+      const sort = document.getElementById('sort').value;
+
+      let filtered = characters.filter(c => {
+        const birthMonth = parseInt(c.birth_date.split('-')[0]);
+        return (
+          c.name.toLowerCase().includes(search) &&
+          (!family || c.family === family) &&
+          (!hair || c.hair_color === hair) &&
+          (!eye || c.eye_color === eye) &&
+          (!verse || c.verse.includes(verse)) &&
+          (!mbti || c.mbti === mbti) &&
+          (!faction || c.faction === faction) &&
+          (c.height >= heightMin && c.height <= heightMax) &&
+          (birthMonth >= birthFrom && birthMonth <= birthTo)
+        );
+      });
+
+      if (sort === "name") {
+        filtered.sort((a, b) => a.name.localeCompare(b.name));
+      } else if (sort === "faction") {
+        filtered.sort((a, b) => a.faction.localeCompare(b.faction));
+      }
+
       grid.innerHTML = '';
-      characters.forEach(char => {
+      filtered.forEach(c => {
         const card = document.createElement('div');
-        card.className = 'card';
-        card.onclick = () => window.location.href = `detail.html?id=${char.id}`;
+        card.className = `card ${mode}`;
+        card.onclick = () => location.href = `detail.html?id=${c.id}`;
+        let imgSrc;
+        if (mode === 'chibi') {
+          imgSrc = c.images.chibi;
+        } else if (mode === 'cardmode') {
+          imgSrc = c.images.card;
+        } else {
+          imgSrc = c.images.portrait;
+        }
         card.innerHTML = `
-          <img src="${char.images[displayMode]}" alt="${char.name}">
-          <h3>${char.name}</h3>
-          <div class="tags">${char.tags.join(', ')}</div>
+          <img src="${imgSrc}" alt="${c.name}">
+          <div class="card-title">${c.name}</div>
         `;
         grid.appendChild(card);
       });
     }
 
-    document.getElementById('search').addEventListener('input', (e) => {
-      const keyword = e.target.value.toLowerCase();
-      const filtered = data.filter(c => 
-        c.name.toLowerCase().includes(keyword) ||
-        c.tags.some(tag => tag.includes(keyword))
-      );
-      renderGrid(filtered);
+    document.querySelectorAll('.form-control, .form-select').forEach(el => {
+      el.addEventListener('input', renderGrid);
+      el.addEventListener('change', renderGrid);
     });
 
-    fetchData();
+    document.getElementById('displayMode').addEventListener('change', (e) => {
+      mode = e.target.value;
+      renderGrid();
+    });
+
+    init();
   </script>
 </body>
 </html>
