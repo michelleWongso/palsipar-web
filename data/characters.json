@@ -1598,7 +1598,7 @@
     }
   },
   {
-    "id": "yggsaroth",
+    "id": "Yggsaroth",
     "name": "Yggsaroth",
     "family": "-",
     "faction": "Sarking",
@@ -1620,7 +1620,7 @@
     }
   },
   {
-    "id": "yagben",
+    "id": "Yagben",
     "name": "Yagben",
     "family": "-",
     "faction": "Sarking",
@@ -1635,14 +1635,14 @@
     "eye_color": "Black",
     "generation": 0,
     "images": {
-      "portrait": "images/yagben/portrait.jpg",
+      "portrait": "images/Yagben/portrait.jpg",
       "chibi": "images/No Chibi.png",
       "card": "images/No Card.png",
       "gallery": []
     }
   },
   {
-    "id": "yensenith",
+    "id": "Yensenith",
     "name": "Yensenith",
     "family": "-",
     "faction": "Sarking",
@@ -1657,14 +1657,14 @@
     "eye_color": "Black",
     "generation": 0,
     "images": {
-      "portrait": "images/yensenith/portrait.jpg",
+      "portrait": "images/Yensenith/portrait.jpg",
       "chibi": "images/No Chibi.png",
       "card": "images/No Card.png",
       "gallery": []
     }
   },
   {
-    "id": "leonidus",
+    "id": "Leonidus",
     "name": "Leonidus Maximus",
     "family": "Maximus",
     "faction": "Sarking",
@@ -1679,14 +1679,14 @@
     "eye_color": "Black",
     "generation": -2,
     "images": {
-      "portrait": "images/leonidus/portrait.jpg",
+      "portrait": "images/Leonidus/portrait.jpg",
       "chibi": "images/No Chibi.png",
       "card": "images/No Card.png",
       "gallery": []
     }
   },
   {
-    "id": "blackmoss",
+    "id": "BlackMoss",
     "name": "Black Moss",
     "family": "-",
     "faction": "Sarking",
@@ -1701,7 +1701,7 @@
     "eye_color": "Black",
     "generation": -1,
     "images": {
-      "portrait": "images/blackmoss/portrait.jpg",
+      "portrait": "images/BlackMoss/portrait.jpg",
       "chibi": "images/No Chibi.png",
       "card": "images/No Card.png",
       "gallery": []
