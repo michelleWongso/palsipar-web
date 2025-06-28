@@ -1,0 +1,34 @@
+[
+    {
+        "id": "Laiser",
+        "name": "Laiser Greyfog",
+        "family": "Greyfog",
+        "faction": "Greyfog",
+        "mbti": "ESTJ",
+        "height": 193,
+        "birth_date": "3-6",
+        "importance_level": "main_character",
+        "psr_name": "",
+        "pote_name": "",
+        "verse": ["PSR"],
+        "hair_color": "Silver",
+        "eye_color": "Blue",
+        "generation": -1,
+        "images": {
+        "portrait": "images/Laiser/portrait.jpg",
+        "chibi": "images/Laiser/chibi.png",
+        "card": "images/Laiser/card.png",
+        "gallery": [
+        ]
+        }
+    }, {
+      "chibi": "images/urthis/chibi.png",
+      "card": "images/urthis/card.png",
+      "gallery": [
+        {
+          "url": "images/urthis/gallery-1.jpg",
+          "description": "Urthis PSR Young"
+        }
+      ]
+    }
+]

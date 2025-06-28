@@ -1400,5 +1400,460 @@
       "gallery": [
       ]
     }
+  },
+  {
+    "id": "Jafar",
+    "name": "Jafar Sarking",
+    "family": "Sarking",
+    "faction": "Sarking",
+    "mbti": "ESTJ",
+    "height": 193,
+    "birth_date": "3-6",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR"],
+    "hair_color": "Purple",
+    "eye_color": "Red",
+    "generation": -2,
+    "images": {
+      "portrait": "images/Jafar/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": []
+    }
+  },
+  {
+    "id": "Jaikar",
+    "name": "Jaikar Sarking",
+    "family": "Sarking",
+    "faction": "Sarking",
+    "mbti": "ESTJ",
+    "height": 193,
+    "birth_date": "3-6",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Purple",
+    "eye_color": "Red",
+    "generation": -1,
+    "images": {
+      "portrait": "images/Jaikar/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": []
+    }
+  },
+  {
+    "id": "Jaina",
+    "name": "Jaina Sarking",
+    "family": "Sarking",
+    "faction": "Sarking",
+    "mbti": "ESFJ",
+    "height": 170,
+    "birth_date": "4-13",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Purple",
+    "eye_color": "Red",
+    "generation": 0,
+    "images": {
+      "portrait": "images/Jaina/portrait.jpg",
+      "chibi": "images/Jaina/chibi.png",
+      "card": "images/Jaina/card.png",
+      "gallery": [
+        {
+          "url": "images/Jaina/gallery-1.jpg",
+          "description": "Jaina PSR Young"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Jazrakiel",
+    "name": "Jazrakiel Sarking",
+    "family": "Sarking",
+    "faction": "Sarking",
+    "mbti": "ENTJ",
+    "height": 185,
+    "birth_date": "9-17",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR"],
+    "hair_color": "Purple",
+    "eye_color": "Red",
+    "generation": -1,
+    "images": {
+      "portrait": "images/Jazrakiel/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": []
+    }
+  },
+  {
+    "id": "Jennie",
+    "name": "Jennie Sarking",
+    "family": "Sarking",
+    "faction": "Sarking",
+    "mbti": "ESFJ",
+    "height": 170,
+    "birth_date": "4-13",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Purple",
+    "eye_color": "Red",
+    "generation": 0,
+    "images": {
+      "portrait": "images/Jennie/portrait.jpg",
+      "chibi": "images/Jennie/chibi.png",
+      "card": "images/Jennie/card.png",
+      "gallery": [
+        {
+          "url": "images/Jennie/gallery-1.jpg",
+          "description": "Jennie PSR Young"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Javrixus",
+    "name": "Javrixus Sarking",
+    "family": "Sarking",
+    "faction": "Sarking",
+    "mbti": "ENTP",
+    "height": 175,
+    "birth_date": "9-25",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR"],
+    "hair_color": "Purple",
+    "eye_color": "Red",
+    "generation": 1,
+    "images": {
+      "portrait": "images/Javrixus/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": []
+    }
+  },
+  {
+    "id": "yggsaroth",
+    "name": "Yggsaroth",
+    "family": "-",
+    "faction": "Sarking",
+    "mbti": "INTP",
+    "height": 182,
+    "birth_date": "1-13",
+    "importance_level": "side_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR"],
+    "hair_color": "Black",
+    "eye_color": "Black",
+    "generation": 0,
+    "images": {
+      "portrait": "images/yggsaroth/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": []
+    }
+  },
+  {
+    "id": "yagben",
+    "name": "Yagben",
+    "family": "-",
+    "faction": "Sarking",
+    "mbti": "ISTP",
+    "height": 178,
+    "birth_date": "2-8",
+    "importance_level": "side_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR"],
+    "hair_color": "Black",
+    "eye_color": "Black",
+    "generation": 0,
+    "images": {
+      "portrait": "images/yagben/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": []
+    }
+  },
+  {
+    "id": "yensenith",
+    "name": "Yensenith",
+    "family": "-",
+    "faction": "Sarking",
+    "mbti": "ISFJ",
+    "height": 168,
+    "birth_date": "5-21",
+    "importance_level": "side_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR"],
+    "hair_color": "Black",
+    "eye_color": "Black",
+    "generation": 0,
+    "images": {
+      "portrait": "images/yensenith/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": []
+    }
+  },
+  {
+    "id": "leonidus",
+    "name": "Leonidus Maximus",
+    "family": "Maximus",
+    "faction": "Sarking",
+    "mbti": "ENTJ",
+    "height": 190,
+    "birth_date": "11-3",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR"],
+    "hair_color": "Greyed Hair",
+    "eye_color": "Black",
+    "generation": -2,
+    "images": {
+      "portrait": "images/leonidus/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": []
+    }
+  },
+  {
+    "id": "blackmoss",
+    "name": "Black Moss",
+    "family": "-",
+    "faction": "Sarking",
+    "mbti": "ISTJ",
+    "height": 174,
+    "birth_date": "6-17",
+    "importance_level": "side_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR"],
+    "hair_color": "Bald",
+    "eye_color": "Black",
+    "generation": -1,
+    "images": {
+      "portrait": "images/blackmoss/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": []
+    }
+  },
+  {
+    "id": "Mystrim",
+    "name": "Mystrim",
+    "family": "-",
+    "faction": "Sarking",
+    "mbti": "INFJ",
+    "height": 170,
+    "birth_date": "10-10",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR"],
+    "hair_color": "Blonde",
+    "eye_color": "Silver",
+    "generation": -1,
+    "images": {
+      "portrait": "images/Mystrim/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": []
+    }
+  },
+  {
+    "id": "Uther",
+    "name": "Sir Uther",
+    "family": "-",
+    "faction": "Sarking",
+    "mbti": "INFJ",
+    "height": 170,
+    "birth_date": "10-10",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR"],
+    "hair_color": "Greyed Hair",
+    "eye_color": "Black",
+    "generation": -1,
+    "images": {
+      "portrait": "images/Uther/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": []
+    }
+  },
+  {
+    "id": "VanHaag",
+    "name": "Wei Van Haag",
+    "family": "Wei",
+    "faction": "Sarking",
+    "mbti": "ENTJ",
+    "height": 100,
+    "birth_date": "1-30",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR"],
+    "hair_color": "Greyed",
+    "eye_color": "Golden",
+    "generation": -2,
+    "images": {
+      "portrait": "images/VanHaag/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": [
+        {
+          "url": "images/VanHaag/gallery-1.jpg",
+          "description": "Van Haag PSR Young"
+        }
+      ]
+    }
+  },
+  {
+    "id": "YeXin",
+    "name": "Ye Xin",
+    "family": "Wei",
+    "faction": "Sarking",
+    "mbti": "ENTJ",
+    "height": 100,
+    "birth_date": "1-30",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR"],
+    "hair_color": "Golden",
+    "eye_color": "Green",
+    "generation": -2,
+    "images": {
+      "portrait": "images/YeXin/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": []
+    }
+  },
+  {
+    "id": "VanSarog",
+    "name": "Wei Van Sarog",
+    "family": "Wei",
+    "faction": "Sarking",
+    "mbti": "ENTJ",
+    "height": 100,
+    "birth_date": "1-30",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR"],
+    "hair_color": "Blonde",
+    "eye_color": "Golden",
+    "generation": -1,
+    "images": {
+      "portrait": "images/VanSarog/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": []
+    }
+  },
+  {
+    "id": "Fong",
+    "name": "Wei Fong",
+    "family": "Wei",
+    "faction": "Sarking",
+    "mbti": "ENTJ",
+    "height": 100,
+    "birth_date": "1-30",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR"],
+    "hair_color": "Blonde",
+    "eye_color": "Golden",
+    "generation": -1,
+    "images": {
+      "portrait": "images/Fong/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": []
+    }
+  },
+  {
+    "id": "Xiao",
+    "name": "Wei Xiao",
+    "family": "Wei",
+    "faction": "Sarking",
+    "mbti": "ENTJ",
+    "height": 100,
+    "birth_date": "1-30",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR"],
+    "hair_color": "Blonde",
+    "eye_color": "Golden",
+    "generation": -1,
+    "images": {
+      "portrait": "images/Xiao/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": []
+    }
+  },
+  {
+    "id": "Pang",
+    "name": "Wei Pang",
+    "family": "Wei",
+    "faction": "Sarking",
+    "mbti": "ENTJ",
+    "height": 100,
+    "birth_date": "1-30",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR"],
+    "hair_color": "Blonde",
+    "eye_color": "Red",
+    "generation": -1,
+    "images": {
+      "portrait": "images/Pang/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": []
+    }
+  },
+  {
+    "id": "VanSieg",
+    "name": "Wei Van Sieg",
+    "family": "Wei",
+    "faction": "Sarking",
+    "mbti": "ENTJ",
+    "height": 100,
+    "birth_date": "1-30",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR"],
+    "hair_color": "Blonde",
+    "eye_color": "Heterochromia (Blue/Red)",
+    "generation": 0,
+    "images": {
+      "portrait": "images/VanSieg/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": []
+    }
   }
 ]
