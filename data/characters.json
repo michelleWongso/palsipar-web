@@ -1544,6 +1544,60 @@
     }
   },
   {
+    "id": "Nekkas",
+    "name": "Nekkas Suafe",
+    "family": "Suafe",
+    "faction": "Sarking",
+    "mbti": "ISFJ",
+    "height": 168,
+    "birth_date": "5-21",
+    "importance_level": "side_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Black",
+    "eye_color": "Black",
+    "generation": 0,
+    "images": {
+      "portrait": "images/Nekkas/portrait.jpg",
+      "chibi": "images/Nekkas/chibi.png",
+      "card": "images/Nekkas/card.png",
+      "gallery": [
+        {
+          "url": "images/Nekkas/gallery-1.jpg",
+          "description": "Nekkas PSR Young"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Sebas",
+    "name": "Sebas Suafe",
+    "family": "Suafe",
+    "faction": "Sarking",
+    "mbti": "ISFJ",
+    "height": 168,
+    "birth_date": "5-21",
+    "importance_level": "side_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Black",
+    "eye_color": "Black",
+    "generation": 0,
+    "images": {
+      "portrait": "images/Sebas/portrait.jpg",
+      "chibi": "images/Sebas/chibi.png",
+      "card": "images/Sebas/card.png",
+      "gallery": [
+        {
+          "url": "images/Sebas/gallery-1.jpg",
+          "description": "Sebas PSR Young"
+        }
+      ]
+    }
+  },
+  {
     "id": "yggsaroth",
     "name": "Yggsaroth",
     "family": "-",
@@ -1701,7 +1755,7 @@
     "id": "VanHaag",
     "name": "Wei Van Haag",
     "family": "Wei",
-    "faction": "Sarking",
+    "faction": "Crasten Rock",
     "mbti": "ENTJ",
     "height": 100,
     "birth_date": "1-30",
@@ -1728,7 +1782,7 @@
     "id": "YeXin",
     "name": "Ye Xin",
     "family": "Wei",
-    "faction": "Sarking",
+    "faction": "Crasten Rock",
     "mbti": "ENTJ",
     "height": 100,
     "birth_date": "1-30",
@@ -1750,7 +1804,7 @@
     "id": "VanSarog",
     "name": "Wei Van Sarog",
     "family": "Wei",
-    "faction": "Sarking",
+    "faction": "Crasten Rock",
     "mbti": "ENTJ",
     "height": 100,
     "birth_date": "1-30",
@@ -1772,7 +1826,7 @@
     "id": "Fong",
     "name": "Wei Fong",
     "family": "Wei",
-    "faction": "Sarking",
+    "faction": "Crasten Rock",
     "mbti": "ENTJ",
     "height": 100,
     "birth_date": "1-30",
@@ -1794,7 +1848,7 @@
     "id": "Xiao",
     "name": "Wei Xiao",
     "family": "Wei",
-    "faction": "Sarking",
+    "faction": "Crasten Rock",
     "mbti": "ENTJ",
     "height": 100,
     "birth_date": "1-30",
@@ -1816,7 +1870,7 @@
     "id": "Pang",
     "name": "Wei Pang",
     "family": "Wei",
-    "faction": "Sarking",
+    "faction": "Crasten Rock",
     "mbti": "ENTJ",
     "height": 100,
     "birth_date": "1-30",
@@ -1838,7 +1892,7 @@
     "id": "VanSieg",
     "name": "Wei Van Sieg",
     "family": "Wei",
-    "faction": "Sarking",
+    "faction": "Crasten Rock",
     "mbti": "ENTJ",
     "height": 100,
     "birth_date": "1-30",
@@ -1851,6 +1905,356 @@
     "generation": 0,
     "images": {
       "portrait": "images/VanSieg/portrait.jpg",
+      "chibi": "images/VanSieg/chibi.png",
+      "card": "images/VanSieg/card.png",
+      "gallery": []
+    }
+  },
+  {
+    "id": "Steffon",
+    "name": "Steffon Von",
+    "family": "Von",
+    "faction": "Crasten Rock",
+    "mbti": "ENTJ",
+    "height": 100,
+    "birth_date": "1-30",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Black",
+    "eye_color": "Golden",
+    "generation": 0,
+    "images": {
+      "portrait": "images/Steffon/portrait.jpg",
+      "chibi": "images/Steffon/chibi.png",
+      "card": "images/Steffon/card.png",
+      "gallery": []
+    }
+  },
+  {
+    "id": "Ragna",
+    "name": "Ragna Luoha",
+    "family": "Luoha",
+    "faction": "Crasten Rock",
+    "mbti": "ENTJ",
+    "height": 100,
+    "birth_date": "1-30",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR"],
+    "hair_color": "Blonde",
+    "eye_color": "Golden",
+    "generation": -1,
+    "images": {
+      "portrait": "images/Ragna/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": []
+    }
+  },
+  {
+    "id": "Reiner",
+    "name": "Reiner Luoha",
+    "family": "Luoha",
+    "faction": "Crasten Rock",
+    "mbti": "ENTJ",
+    "height": 100,
+    "birth_date": "1-30",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Blonde",
+    "eye_color": "Blue",
+    "generation": 0,
+    "images": {
+      "portrait": "images/Reiner/portrait.jpg",
+      "chibi": "images/Reiner/chibi.png",
+      "card": "images/Reiner/card.png",
+      "gallery": []
+    }
+  },
+  {
+    "id": "Rein",
+    "name": "Rein Luoha",
+    "family": "Luoha",
+    "faction": "Crasten Rock",
+    "mbti": "ENTJ",
+    "height": 100,
+    "birth_date": "1-30",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Blonde",
+    "eye_color": "Golden",
+    "generation": 0,
+    "images": {
+      "portrait": "images/Rein/portrait.jpg",
+      "chibi": "images/Rein/chibi.png",
+      "card": "images/Rein/card.png",
+      "gallery": []
+    }
+  },
+  {
+    "id": "Dreyven",
+    "name": "Dreyven Latham III",
+    "family": "Latham",
+    "faction": "Crasten Rock",
+    "mbti": "ENTJ",
+    "height": 100,
+    "birth_date": "1-30",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Black",
+    "eye_color": "Golden",
+    "generation": 0,
+    "images": {
+      "portrait": "images/Dreyven/portrait.jpg",
+      "chibi": "images/Dreyven/chibi.png",
+      "card": "images/Dreyven/card.png",
+      "gallery": []
+    }
+  },
+  {
+    "id": "Alberros",
+    "name": "Alberros Tristan",
+    "family": "Tristan",
+    "faction": "Crasten Rock",
+    "mbti": "ENTJ",
+    "height": 100,
+    "birth_date": "1-30",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Black",
+    "eye_color": "Golden",
+    "generation": 0,
+    "images": {
+      "portrait": "images/Alberros/portrait.jpg",
+      "chibi": "images/Alberros/chibi.png",
+      "card": "images/Alberros/card.png",
+      "gallery": []
+    }
+  },
+  {
+    "id": "Eladrin",
+    "name": "Eladrin Aldrei",
+    "family": "Aldrei",
+    "faction": "The Vale",
+    "mbti": "ENTJ",
+    "height": 100,
+    "birth_date": "1-30",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR"],
+    "hair_color": "Blonde",
+    "eye_color": "Blue",
+    "generation": -1,
+    "images": {
+      "portrait": "images/Eladrin/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": []
+    }
+  },
+  {
+    "id": "Ylndar",
+    "name": "Ylndar Aldrei",
+    "family": "Aldrei",
+    "faction": "The Vale",
+    "mbti": "ENTJ",
+    "height": 100,
+    "birth_date": "1-30",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Blonde",
+    "eye_color": "Blue",
+    "generation": 0,
+    "images": {
+      "portrait": "images/Ylndar/portrait.jpg",
+      "chibi": "images/Ylndar/chibi.png",
+      "card": "images/Ylndar/card.png",
+      "gallery": [
+        {
+          "url": "images/Ylndar/gallery-1.jpg",
+          "description": "Ylndar PSR Young"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Feralyn",
+    "name": "Feralyn Aldrei",
+    "family": "Aldrei",
+    "faction": "The Vale",
+    "mbti": "ENTJ",
+    "height": 100,
+    "birth_date": "1-30",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Blonde",
+    "eye_color": "Blue",
+    "generation": 0,
+    "images": {
+      "portrait": "images/Feralyn/portrait.jpg",
+      "chibi": "images/Feralyn/chibi.png",
+      "card": "images/Feralyn/card.png",
+      "gallery": [
+        {
+          "url": "images/Feralyn/gallery-1.jpg",
+          "description": "Feralyn PSR Young"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Aekas",
+    "name": "Aekas Aldrei",
+    "family": "Aldrei",
+    "faction": "The Vale",
+    "mbti": "ENTJ",
+    "height": 100,
+    "birth_date": "1-30",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Blonde",
+    "eye_color": "Blue",
+    "generation": 0,
+    "images": {
+      "portrait": "images/Aekas/portrait.jpg",
+      "chibi": "images/Aekas/chibi.png",
+      "card": "images/Aekas/card.png",
+      "gallery": [
+        {
+          "url": "images/Aekas/gallery-1.jpg",
+          "description": "Aekas PSR Young"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Gallahad",
+    "name": "Gallahad Yesyra",
+    "family": "Yesyra",
+    "faction": "The Vale",
+    "mbti": "ENTJ",
+    "height": 100,
+    "birth_date": "1-30",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR", "POTE"],
+    "hair_color": "Blonde",
+    "eye_color": "Blue",
+    "generation": 0,
+    "images": {
+      "portrait": "images/Gallahad/portrait.jpg",
+      "chibi": "images/Gallahad/chibi.png",
+      "card": "images/Gallahad/card.png",
+      "gallery": [
+        {
+          "url": "images/Gallahad/gallery-1.jpg",
+          "description": "Gallahad PSR Young"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Vervent",
+    "name": "Vervent Falcon",
+    "family": "Falcon",
+    "faction": "The Vale",
+    "mbti": "ENTJ",
+    "height": 100,
+    "birth_date": "1-30",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR"],
+    "hair_color": "Blonde",
+    "eye_color": "Blue",
+    "generation": -2,
+    "images": {
+      "portrait": "images/Vervent/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": []
+    }
+  },
+  {
+    "id": "Selwyn",
+    "name": "Selwyn Galewind",
+    "family": "Galewind",
+    "faction": "The Vale",
+    "mbti": "ENTJ",
+    "height": 100,
+    "birth_date": "1-30",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR"],
+    "hair_color": "Blonde",
+    "eye_color": "Blue",
+    "generation": -1,
+    "images": {
+      "portrait": "images/Selwyn/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": []
+    }
+  },
+  {
+    "id": "Arwen",
+    "name": "Arwen Lavellan",
+    "family": "Lavellan",
+    "faction": "The Vale",
+    "mbti": "ENTJ",
+    "height": 100,
+    "birth_date": "1-30",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR"],
+    "hair_color": "Blonde",
+    "eye_color": "Blue",
+    "generation": -1,
+    "images": {
+      "portrait": "images/Arwen/portrait.jpg",
+      "chibi": "images/No Chibi.png",
+      "card": "images/No Card.png",
+      "gallery": []
+    }
+  },
+  {
+    "id": "Luthien",
+    "name": "Luthien Lavellan",
+    "family": "Lavellan",
+    "faction": "The Vale",
+    "mbti": "ENTJ",
+    "height": 100,
+    "birth_date": "1-30",
+    "importance_level": "main_character",
+    "psr_name": "",
+    "pote_name": "",
+    "verse": ["PSR"],
+    "hair_color": "Blonde",
+    "eye_color": "Blue",
+    "generation": -1,
+    "images": {
+      "portrait": "images/Luthien/portrait.jpg",
       "chibi": "images/No Chibi.png",
       "card": "images/No Card.png",
       "gallery": []
